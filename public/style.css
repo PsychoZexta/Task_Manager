@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    background-color: white;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10rem;
+    width: 25rem;
+    box-shadow: black 0px 0px 9px;
+    border-radius: 5%;
+}
+
+.container h1 {
+    color: rgb(38, 38, 131);
+}
+
+.container div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container input {
+    padding: 10px 10px;
+    width: 25rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px 0px 0 5px;
+    font-size: 1.2rem;
+}
+
+.container button {
+    padding: 10px 10px;
+    background-color: rgb(124, 12, 199);
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1.2rem;
+}
+
+.container button:active {
+    background-color: white;
+    color: rgb(124, 12, 199);
+}
+.response-alert{
+    width:80%;
+    font-size:1.1rem;
+    margin-bottom: 4px;
+
+}
+.task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.task {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    font-size: 1.2rem;
+    padding: 15px 18px;
+    margin: 4px 0px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 3px;
+}
+.btn-group{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:40px;
+}
+.btn-group a{
+    background-color: white;
+    border:none;
+    cursor:pointer;
+}
+.edit{
+    color:green;
+}
+.delete{
+    color:rgb(172, 28, 28);
+}

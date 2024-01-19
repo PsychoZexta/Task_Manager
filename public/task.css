@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    background-color: white;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    width: 25rem;
+    box-shadow: black 0px 0px 9px;
+    border-radius: 5%;
+}
+
+.container h1 {
+    color: rgb(38, 38, 131);
+}
+
+.input-box {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.input-box>div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.container input {
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px 0px 0 5px;
+    font-size: 1.2rem;
+}
+
+.container #completed {
+    margin-right: 228px;
+}
+.form-alert{
+    margin:10px auto;
+    display:none;
+}
+.form-alert.success{
+    color:green;
+    display:block;
+}
+.form-alert.error{
+    color:red;
+    display: block;
+}
+.container button {
+    padding: 10px 10px;
+    background-color: rgb(124, 12, 199);
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 4px 0px;
+    cursor: pointer;
+}
+
+.container button:active {
+    background-color: white;
+    color: rgb(124, 12, 199);
+}
+
+.response-alert {
+    width: 80%;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#back-btn {
+    padding: 10px 10px;
+    background-color: rgb(124, 12, 199);
+    color: white;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 4px 0px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0px;
+    display: none;
+    cursor: pointer;
+}
+
+#back-btn:active {
+    background-color: white;
+    color: rgb(124, 12, 199);
+}
